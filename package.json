@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+    "node" : "18.x"
+  },
   "type": "module",
   "scripts": {
     "start": "SET NODE_ENV=production & node server.js",
